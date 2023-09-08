@@ -8,7 +8,39 @@
     <link rel="stylesheet" href="mediaquesries.css" />
   </head>
   <body>
-    Hello
-    <script src="script.js"></script>
+    <!-- DESKTOP NAV -->
+    <nav id="desktop-nav">
+      <div class="logo">Mizuho</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</li>
+          <li><a href="#experience">Experience</li>
+          <li><a href="#projects">Projects</li>
+          <li><a href="#blog">Blog</li>
+          <li><a href="#contact">Contact</li>
+        </ul>
+      </div>
+    </nav>
+    <!-- MOBILE NAV -->
+    <nav id="hamburger-nav">
+      <div class="logo">Mizuho</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onClick="toggleMenu()">
+            <!-- 3 lines for the hamburger menu -->
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="menu-links"> <!-- Enclosed the <li> elements in a <ul> -->
+            <li><a href="#about" onClick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onClick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onClick="toggleMenu()">Projects</a></li>
+            <li><a href="#blog" onClick="toggleMenu()">Blog</a></li>
+            <li><a href="#contact" onClick="toggleMenu()">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+    <!-- MOBILE NAV END -->
+    <script src="/script.js"></script>
   </body>
 </html>

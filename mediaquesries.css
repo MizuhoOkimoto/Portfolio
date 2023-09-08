@@ -1,0 +1,33 @@
+/* @media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+} */
+
+/* Hide #hamburger-nav by default */
+#hamburger-nav {
+  display: none;
+}
+
+/* Show #desktop-nav when the screen width is over 1200px */
+@media screen and (min-width: 1201px) {
+  #desktop-nav {
+    display: flex;
+  }
+  #hamburger-nav {
+    display: none;
+  }
+}
+
+/* Your existing media query for screens up to 1200px */
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+}
