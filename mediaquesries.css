@@ -21,6 +21,64 @@
   display: none;
 }
 
+@media screen and (min-width: 2000px) {
+  p {
+    font-size: 1.7rem;
+  }
+  h1,
+  .title {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  .profile_img {
+    width: 500px;
+    height: auto;
+  }
+  .my_name {
+    font-size: 6rem;
+  }
+  .btn {
+    font-weight: 800;
+    width: 15rem;
+    border-radius: 3rem;
+    font-size: x-large;
+  }
+
+  .sns_icon {
+    height: 4rem;
+  }
+  .btn-container {
+    margin-top: 3rem;
+  }
+  #socials-container {
+    margin-top: 3rem;
+  }
+
+  .about_img {
+    width: auto;
+    height: auto;
+  }
+
+  .section-container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .experience_details-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-wrap: wrap;
+  }
+  .article-container {
+    max-width: 80%; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  article {
+    width: 13rem;
+  }
+}
+
 @media screen and (max-width: 1400px) {
   #profile {
     height: 80vh;

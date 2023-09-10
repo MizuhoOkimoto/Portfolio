@@ -321,6 +321,26 @@ section {
   gap: 2rem;
 }
 
+.about_icon:hover {
+  transform: none;
+}
+
+/* Firefox-specific styles */
+@-moz-document url-prefix() {
+  .about-pic {
+    width: 500px;
+  }
+
+  .section-container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .experience_details-container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
 .arrow {
   position: absolute;
   right: -5rem;
@@ -339,7 +359,7 @@ section {
 }
 
 .section-container {
-  gap: 4rem;
+  gap: 5rem;
   margin-top: 50px;
   height: 80%;
 }
