@@ -71,7 +71,7 @@
     flex-wrap: wrap;
   }
   .article-container {
-    max-width: 80%; /* Adjust the maximum width as needed */
+    max-width: 80%;
     margin: 0 auto; /* Center the container horizontally */
   }
   article {
