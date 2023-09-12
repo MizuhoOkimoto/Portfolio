@@ -61,6 +61,12 @@ a:hover {
 .logo {
   font-size: 2rem;
   margin-left: 50px;
+  display: flex;
+}
+
+.favicon {
+  margin-right: 20px;
+  height: 3.2vh;
 }
 
 /* HAMBURGER MENU */

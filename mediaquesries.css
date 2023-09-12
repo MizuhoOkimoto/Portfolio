@@ -23,7 +23,7 @@
 
 @media screen and (min-width: 2000px) {
   p {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
   h1,
   .title {
@@ -92,7 +92,7 @@
   }
 }
 
-/* Existing media query for screens up to 1200px */
+/* Screens up to 1200px */
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
