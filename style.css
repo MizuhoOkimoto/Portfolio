@@ -29,7 +29,8 @@ a,
 }
 /* DESKTOP NAVIGATION */
 nav,
-.nav-links {
+.nav-links,
+.footer-nav-links {
   display: flex;
 }
 
@@ -501,4 +502,10 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+.footer-nav-links {
+  gap: 5rem;
+  list-style: none;
+  font-size: 1.5rem;
 }
