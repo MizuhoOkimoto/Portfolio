@@ -33,11 +33,11 @@
     font-size: 2rem;
   }
   .profile_img {
-    width: 700px;
+    width: 500px;
     height: auto;
   }
   .profile_img img {
-    width: 750px;
+    width: 100%;
     height: auto;
   }
   .my_name {
