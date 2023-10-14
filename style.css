@@ -204,15 +204,15 @@ section {
 
 .section_pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 900px;
+  width: 900px;
   margin: auto 0;
 }
 
 .profile_img img {
   /* box-shadow: 0 0 6px rgba(0 0 0 / 0.2); */
   border-radius: 50%;
-  box-shadow: 0 8px 6px -6px rgb(173, 171, 171);
+  box-shadow: 0 10px 6px -5px #d67aab;
 }
 
 /* SECTIONS TITLE */
