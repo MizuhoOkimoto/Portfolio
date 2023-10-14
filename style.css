@@ -253,6 +253,10 @@ section {
   transform: scale(1.15);
 }
 
+.star-icon {
+  height: 2.3rem;
+}
+
 /* BUTTONS */
 .btn-container {
   display: flex;
