@@ -23,14 +23,17 @@
 
 @media screen and (min-width: 2000px) {
   p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
   h1,
   .title {
     font-size: 4rem;
   }
   h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+  section {
+    margin: 0 8rem;
   }
   .profile_img {
     width: 500px;
