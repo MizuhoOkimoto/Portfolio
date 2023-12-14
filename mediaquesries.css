@@ -94,21 +94,37 @@
 
 /* Screens between 1400px and 1999px */
 @media screen and (min-width: 1401px) and (max-width: 1999px) {
-  p {
+  /* p {
     font-size: 1.7rem;
-  }
+  } */
   h1,
   .title {
     font-size: 5rem;
   }
   h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   .btn {
     font-weight: 800;
     width: 15rem;
     border-radius: 3rem;
     font-size: 1.2rem;
+  }
+  section {
+    margin: 0 8rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .details-container {
+    flex: 1 1 calc(33.333% - 20px); /* Subtract margin/padding from the width */
+    margin: 8px;
+    max-width: calc(83.333% - 20px);
+  }
+  .project-container {
+    margin: 10px;
+    max-width: calc(53.333% - 40px);
   }
 }
 
