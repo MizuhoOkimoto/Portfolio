@@ -21,7 +21,9 @@ input {
 
 p {
   color: rgb(85, 85, 85);
+  font-size: 1.5rem;
 }
+
 /* TRANSITION */
 a,
 .btn {
@@ -325,9 +327,16 @@ section {
   display: flex;
 }
 
+#about .details-container {
+  box-sizing: border-box;
+  max-width: calc(50% - 1rem); /* Example, adjust as needed */
+  margin: 0.5rem; /* Provide some space around the containers */
+}
+
 .about-pic {
   border-radius: 2rem;
   width: 600px;
+  /* max-width: 100%; Make image responsive */
   height: auto;
   gap: 2rem;
 }
@@ -369,10 +378,17 @@ section {
   text-align: center;
 }
 
-.section-container {
+/* .section-container {
   gap: 5rem;
   margin-top: 50px;
   height: 80%;
+} */
+
+#about .section-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .section_pic-container {
