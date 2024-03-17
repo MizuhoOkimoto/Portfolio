@@ -464,7 +464,6 @@ article .icon {
   width: 90%;
   height: 90%;
 }
-
 .project-title {
   margin: 1rem;
   color: black;
@@ -473,40 +472,6 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
-/* Project hover */
-.article-container_project {
-  display: flex;
-  text-align: initial;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 2.5rem;
-  justify-content: space-around;
-  position: relative;
-}
-.project-hover-description {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  line-height: 200%;
-  background: #ede9ebf5;
-  /* background: rgba(255, 255, 255, 0.8); */
-  color: black; /* Text color */
-  visibility: hidden; /* Hide by default */
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear; /* Smooth transition */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-  box-sizing: border-box;
-  pointer-events: none; /* Ensures clicks pass through to elements underneath */
-  box-shadow: 4px 3px 2px rgba(201, 199, 199, 0.896);
-}
-.article-container_project:hover .project-hover-description {
-  visibility: visible;
-  opacity: 2;
-}
-
 /* CONTACT SECTION */
 #contact {
   display: flex;
